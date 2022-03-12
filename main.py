@@ -14,7 +14,7 @@ def connectToServer():
     try:
         connection = psycopg2.connect(
             user="aj0363",
-            password="tpdengsq",
+            password="degreeorbust",
             host="pgserver.mau.se",
             database="aj0363"
         )
