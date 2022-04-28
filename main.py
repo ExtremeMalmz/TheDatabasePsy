@@ -13,10 +13,10 @@ def connectToServer():
     #make sure you got wifi ha ha
     try:
         connection = psycopg2.connect(
-            user="aj0363",
+            user="username",
             password="degreeorbust",
-            host="pgserver.mau.se",
-            database="aj0363"
+            host="pgserver.usab.us",
+            database="username"
         )
         return connection
     except psycopg2.OperationalError:
